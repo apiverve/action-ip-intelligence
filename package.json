@@ -1,0 +1,33 @@
+{
+  "name": "@apiverve/action-ip-intelligence",
+  "version": "0.1.0-beta",
+  "description": "Lookup IP geolocation, detect VPNs/proxies, and check IP reputation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js -o dist --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/action-ip-intelligence.git"
+  },
+  "keywords": [
+    "ip",
+    "geolocation",
+    "vpn",
+    "security",
+    "intelligence"
+  ],
+  "author": "APIVerve <support@apiverve.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/action-ip-intelligence/issues"
+  },
+  "homepage": "https://github.com/apiverve/action-ip-intelligence#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1"
+  }
+}
