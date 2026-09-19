@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/action-ip-intelligence",
-  "version": "0.1.0-beta",
+  "version": "1.0.0",
   "description": "Lookup IP geolocation, detect VPNs/proxies, and check IP reputation",
   "main": "dist/index.js",
   "scripts": {

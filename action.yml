@@ -10,7 +10,7 @@ inputs:
     description: 'Your APIVerve API key. Can also be set via APIVERVE_API_KEY env var.'
     required: false
   api:
-    description: 'The API to use. Options: iplookup, ipdemographics, vpndetector, tordetector, ipblacklistlookup, asnlookup'
+    description: 'The API to use. Options: iplookup, ipdemographics, vpndetector, tordetect, ipblacklistlookup, asnlookup'
     required: false
     default: 'iplookup'
   params:
@@ -40,5 +40,5 @@ outputs:
     description: 'Path to the downloaded file (if output_file was specified)'
 
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
